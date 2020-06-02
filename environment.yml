@@ -13,5 +13,7 @@ dependencies:
   - statsmodels
   - scipy
   - jupyter
+  - pip:
+    - -r file:requirements.txt
 prefix: /home/skelletor/.pyenv/versions/anaconda3-2020.02/envs/movie-industry
 
