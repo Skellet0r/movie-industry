@@ -1,0 +1,17 @@
+name: movie-industry
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - plotly
+  - numpy
+  - ipywidgets
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - scipy
+  - jupyter
+prefix: /home/skelletor/.pyenv/versions/anaconda3-2020.02/envs/movie-industry
+
