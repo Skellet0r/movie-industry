@@ -25,9 +25,9 @@ def data_information(filepath: str):
         raise CSVError(f"Can't determine if {filename} is a CSV")
     # create dataframe from file with sep depending on type
     if "csv" in filename:
-        df = pd.read_csv(filepath)
+        df = pd.read_csv(filepath, nrows=10)
     elif "tsv" in filename:
-        df = pd.read_csv(filepath, sep="\t")
+        df = pd.read_csv(filepath, sep="\t", nrows=10)
 
     # create dataframe with column names and dtypes
     result = pd.DataFrame({
@@ -35,4 +35,4 @@ def data_information(filepath: str):
         "dtypes": df.dtypes
     })
 
-    return result
+    return result.reset_index(drop=True)
