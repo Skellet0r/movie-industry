@@ -1,5 +1,32 @@
 # Jupyter Notebooks
 
-When we use notebooks in our work, we often subdivide the notebooks folder. For example, `notebooks/exploratory` contains initial explorations, whereas `notebooks/reports` is more polished work that can be exported as html to the reports directory.
+Refer to the [Project Charter](../docs/project/charter.md) for a comprehensive overview
+of this project's purpose.
 
-Follow a naming convention that shows the owner and the order the analysis was done in. We use the format `<step>-<ghuser>-<description>.ipynb` (e.g., `0.3-bull-visualize-distributions.ipynb`).
+## Exploration Guide
+
+As per our Project Charter, our first step will be to develop an exploration guide.  
+
+As a measure to guide our analysis/exploration we will be inspecting the following
+features of the film industry:
+
+- Genre
+- Runtime
+- Budget Allocation
+- Release Window
+- Director
+
+To inspect the above features we will be working with the following raw datasets: 
+
+- rt.movie_info
+- imdb.title.basics
+- tn.movie_budgets
+- imdb.title.crew
+- imdb.name.basics
+
+## Notebooks
+
+1. [Create Raw Dictionaries](./01-eamor-create-raw-data-dictionary.ipynb): Create the raw
+   data-dictionary as one wasn't supplied to us.
+2. [Data Cleaning](./02-eamor-data-cleaning.ipynb): clean up the datasets we will use for
+   exploration.
