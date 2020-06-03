@@ -12,6 +12,7 @@ class CSVError(Exception):
 
 def data_information(filepath: str):
     """Return column_names and dtypes of [c|t]sv files.
+
     :param filepath: absolute or relative path of data
 
     :return: Dataframe with column_names, column_dtypes
@@ -36,3 +37,24 @@ def data_information(filepath: str):
     })
 
     return result.reset_index(drop=True)
+
+
+def currency_string_to_float(value: str):
+    """Return a currency string encoded with characters as a float.
+
+    :param value: a float value encoded as a string with additional 
+    non-float characters
+
+    :return: float(value)
+    """
+    # if we receive a non-string instance return that value
+    # this is neccessary for repeatability
+    if not isinstance(value, str):
+        return value
+
+    # create our pattern to match all characters
+    pattern = re.compile(r"[^\d.]")
+    # substitute characters that match with a blank space
+    new_value = pattern.sub("", value)
+    # return as a float
+    return float(new_value)
