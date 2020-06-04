@@ -30,3 +30,5 @@ To inspect the above features we will be working with the following raw datasets
    data-dictionary as one wasn't supplied to us.
 2. [Data Cleaning](./02-eamor-data-cleaning.ipynb): clean up the datasets we will use for
    exploration.
+3. [Data Exploration](./03-eamor-data-exploration.ipynb): exploring our cleaned dataset
+   inspecting the features of the film industry defined in our exploration guide.
