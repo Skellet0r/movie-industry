@@ -2,11 +2,34 @@
 import os
 import pandas as pd
 import numpy as np
+import cpi
 from src.tools import currency_string_to_float
 from pathlib import Path
 from warnings import filterwarnings
 
 filterwarnings("ignore")
+
+
+# create a function to adjust for inflation
+def inf_adjust(values, years):
+    """Adjusts an array of values for inflation
+
+    :values: array of value in USD
+    :years: years of the values
+
+    :return: array of inflation adjusted values"""
+    results = []
+    for value, year in zip(values, years):
+        try:
+            result = cpi.inflate(value, year)
+            results.append(result)
+        except cpi.errors.CPIObjectDoesNotExist:
+            if year > cpi.LATEST_YEAR:
+                results.append(value)
+            else:
+                results.append(np.nan)
+    return results
+
 
 
 def make_dataset():
@@ -144,22 +167,32 @@ def make_dataset():
         left_on=["movie"],
         right_on=["title"],
     )
+    
+    # inflation adjustment
+    
+    # combine our domestic and worldwide gross into total_gross
+    merging_on_title["total_gross"] = (
+        merging_on_title.domestic_gross + merging_on_title.worldwide_gross
+    )
+    
+    # create a year column 
+    merging_on_title["release_year"] = merging_on_title.release_date_x.dt.year
+    
+    # adjust total_gross and production budget
+    merging_on_title["adj_total_gross"] = inf_adjust(merging_on_title.total_gross, merging_on_title.release_year)
+    merging_on_title["adj_prod_budget"] = inf_adjust(merging_on_title.production_budget, merging_on_title.release_year)
 
 
     # create a profit column by subtracting budget from (worldwide gross + domestic_gross)
-    merging_on_title["total_gross"] = (
-        merging_on_title.worldwide_gross + merging_on_title.domestic_gross
-    )
-    merging_on_title["profit"] = merging_on_title.total_gross - merging_on_title.production_budget
+    merging_on_title["profit"] = merging_on_title.adj_total_gross - merging_on_title.adj_prod_budget
     merging_on_title["profit_margin"] = (
-        merging_on_title.profit / merging_on_title.production_budget
+        merging_on_title.profit / merging_on_title.adj_prod_budget
     )
-
 
     # finalize our data
     cols_to_keep = [
         "movie",
-        "production_budget",
+        "adj_prod_budget",
         "profit",
         "profit_margin",
         "release_date_x",
@@ -168,7 +201,7 @@ def make_dataset():
         "director",
     ]
     cleaned_data = merging_on_title[cols_to_keep]
-    cleaned_data.rename(columns={"release_date_x": "release_date"}, inplace=True)
+    cleaned_data.rename(columns={"release_date_x": "release_date", "adj_prod_budget": "production_budget"}, inplace=True)
 
     # export our data
     cleaned_data.to_csv("./interim/cleaned_data.csv", index=False)
