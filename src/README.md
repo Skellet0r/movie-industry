@@ -1,1 +1,0 @@
-Source code for use in this project. Mainly `*.py` files/scripts.
