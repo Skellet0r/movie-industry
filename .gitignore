@@ -136,3 +136,17 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# gh-pages related items
+.idea/
+*.iml
+*.iws
+*.eml
+out/
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
+.sass-cache
+dist/*.map
