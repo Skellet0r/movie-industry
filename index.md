@@ -35,7 +35,7 @@ Note:
   our films on an even scale.
 - Performed Exploratory Data Analysis, looking for low-risk recommendations.
 
----
+--- <!-- .element: id="recommendations" -->
 
 ## Recommendations
 
@@ -56,6 +56,7 @@ Note:
 
 ## Genre Visualizations
 
+<a href="#/recommendations" style="font-size: medium;">Back to top</a>
 --
 
 ###### Profit Margin Box and Whisker Plot by Genre 
@@ -74,6 +75,8 @@ Note:
 -- <!-- .element: id="budget-viz" -->
 
 ## Budget Allocation Visualizations
+
+<a href="#/recommendations" style="font-size: medium;">Back to top</a>
 
 --
 
@@ -99,6 +102,8 @@ Note:
 -- <!-- .element: id="runtime-viz" -->
 
 ## Runtime Visualizations
+
+<a href="#/recommendations" style="font-size: medium;">Back to top</a>
 
 --
 
@@ -131,6 +136,8 @@ Note:
 -- <!-- .element: id="release-viz" -->
 
 ## Release Window Visualizations 
+
+<a href="#/recommendations" style="font-size: medium;">Back to top</a>
 
 --
 

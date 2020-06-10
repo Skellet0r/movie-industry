@@ -94,5 +94,8 @@
       "no-eq-null": 2,
       "no-unused-expressions": 0
     }
+  },
+  "dependencies": {
+    "reveal.js-menu": "^1.2.0"
   }
 }

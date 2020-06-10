@@ -41,7 +41,14 @@
 			touch: false,
 
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealNotes]
+			plugins: [RevealMarkdown, RevealNotes],
+			dependencies: [
+				{ src: 'node_modules/reveal.js-menu/menu.js' },
+			],
+			menu: {
+				hideMissingTitles: true,
+				markers: false,
+			}
 		});
 	</script>
 </body>
