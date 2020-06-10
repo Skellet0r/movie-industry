@@ -39,10 +39,10 @@ Note:
 
 ## Recommendations
 
-1. Animation 
-2. $94 - $130 million USD budget 
-3. 75 - 140 minute runtime 
-4. June - July release 
+1. [Animation](#/genre-viz) 
+2. [$94 - $130 million USD budget](#/budget-viz) 
+3. [75 - 140 minute runtime](#/runtime-viz) 
+4. [June - July release](#/release-viz) 
 
 Note:
 - Our findings show that although all genres have an inherent risk, the Animation Genre has the least risk with more than 75% of movies being profitable.
@@ -52,7 +52,7 @@ Note:
   an industry standard.
 - Looking at the profitability of movies by their release month, we see the months of June and July have a clear advantage over the rest of the year.
 
---
+-- <!-- .element: id="genre-viz"-->
 
 ## Genre Visualizations
 
@@ -71,7 +71,7 @@ Note:
   <img src="figures/average-profit-of-3-lowest-risk-genres.svg">
 </div>
 
---
+-- <!-- .element: id="budget-viz" -->
 
 ## Budget Allocation Visualizations
 
@@ -96,7 +96,7 @@ Note:
   <img src="figures/profit-margin-dist-by-budget-range-animation.svg">
 </div>
 
---
+-- <!-- .element: id="runtime-viz" -->
 
 ## Runtime Visualizations
 
@@ -128,7 +128,7 @@ Note:
   <img src="figures/runtime-dist-profitable-animation.svg">
 </div>
 
--- 
+-- <!-- .element: id="release-viz" -->
 
 ## Release Window Visualizations 
 

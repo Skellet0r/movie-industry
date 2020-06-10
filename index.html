@@ -16,8 +16,6 @@
 	<link rel="stylesheet" href="dist/reveal.css">
 	<link rel="stylesheet" href="dist/theme/night.css" id="theme">
 
-	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 </head>
 
 <body>
@@ -32,20 +30,18 @@
 	<script src="dist/reveal.js"></script>
 	<script src="plugin/notes/notes.js"></script>
 	<script src="plugin/markdown/markdown.js"></script>
-	<script src="plugin/highlight/highlight.js"></script>
-	<script src="plugin/zoom/zoom.js"></script>
 
 	<script>
 		// More info about initialization & config:
 		// - https://revealjs.com/initialization/
 		// - https://revealjs.com/config/
 		Reveal.initialize({
-			// hash: true,
+			hash: true,
 			pdfSeparateFragments: false,
-			// touch: false,
+			touch: false,
 
 			// Learn about plugins: https://revealjs.com/plugins/
-			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom]
+			plugins: [RevealMarkdown, RevealNotes]
 		});
 	</script>
 </body>
