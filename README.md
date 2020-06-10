@@ -30,8 +30,6 @@ $ conda activate movie-industry
 
 4. Enjoy
 
-You can view the slide deck for this project by [clicking here](https://Skellet0r.github.io/movie-industry/), (compatible with mobile web browsers). 
-
 ## Components
 
 - [Data](data/): the raw and cleaned data used for this project can
