@@ -41,6 +41,9 @@ $ conda activate movie-industry
   presentation delivered to our client is hosted on github pages and uses
   [reveal.js](https://revealjs.com/). A pdf version of the presentation can
   also be found in this repository by clicking [here](presentation.pdf).
+- [Charter](docs/project/charter.md): The project charter is a guideline
+  for this project and gives stakeholders/collaborators a business understanding
+  as well as an idea of how this project is to develop. 
 
 ## Technologies Used
 
