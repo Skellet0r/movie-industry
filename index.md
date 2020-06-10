@@ -6,9 +6,9 @@ Recommendations & Analysis of the Movie Industry <!-- .element: style="font-size
 
 ## Problem Statement
 
-- Movie studio startup <!-- .element: class="fragment" data-fragment-index="1" -->
-- Unaware of industry trends  <!-- .element: class="fragment" data-fragment-index="2" -->
-- Seeking to develop revenue stream <!-- .element: class="fragment" data-fragment-index="3" -->
+- Movie studio startup 
+- Unaware of industry trends  
+- Seeking to develop revenue stream 
 
 Note:
 - Our client is a multinational company, with generous business experience.
@@ -25,9 +25,9 @@ Global movie production has a market size of approx. $103 billion USD. - [IBISWo
 
 ## Methodology
 
-1. Data <!-- .element: class="fragment" data-fragment-index="1" -->
-2. Profit Margin <!-- .element: class="fragment" data-fragment-index="2" -->
-2. Exploratory Analysis <!-- .element: class="fragment" data-fragment-index="3" -->
+1. Data 
+2. Profit Margin 
+2. Exploratory Analysis 
 
 Note:
 - Our data was given to us by our client, collected from various sources (IMDB, The Numbers, Rotten Tomatoes)
@@ -39,10 +39,10 @@ Note:
 
 ## Recommendations
 
-1. Animation <!-- .element: class="fragment" data-fragment-index="1" -->
-2. $94 - $130 million USD budget <!-- .element: class="fragment" data-fragment-index="2" -->
-3. 75 - 140 minute runtime <!-- .element: class="fragment" data-fragment-index="3" -->
-4. June - July release <!-- .element: class="fragment" data-fragment-index="4" -->
+1. Animation 
+2. $94 - $130 million USD budget 
+3. 75 - 140 minute runtime 
+4. June - July release 
 
 Note:
 - Our findings show that although all genres have an inherent risk, the Animation Genre has the least risk with more than 75% of movies being profitable.
@@ -157,10 +157,10 @@ Note:
 
 ## Future Work
 
-1. Casting <!-- .element: class="fragment" data-fragment-index="1" -->
-2. Direction <!-- .element: class="fragment" data-fragment-index="2" -->
-3. Score <!-- .element: class="fragment" data-fragment-index="3" -->
-4. Promotion <!-- .element: class="fragment" data-fragment-index="4" -->
+1. Casting 
+2. Direction 
+3. Score 
+4. Promotion 
 
 Note:
 - Look into the relationship between these 4 variables and the profitablity of a film.
