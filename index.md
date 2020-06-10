@@ -52,6 +52,99 @@ Note:
   an industry standard.
 - Looking at the profitability of movies by their release month, we see the months of June and July have a clear advantage over the rest of the year.
 
+--
+
+## Genre Visualizations
+
+--
+
+###### Profit Margin Box and Whisker Plot by Genre 
+
+<div class="r-stretch">
+  <img src="figures/profit-margin-dist-genre.svg">
+</div>
+
+--
+
+###### Lowest Risk Genres Average Profit
+<div class="r-stretch">
+  <img src="figures/average-profit-of-3-lowest-risk-genres.svg">
+</div>
+
+--
+
+## Budget Allocation Visualizations
+
+--
+
+###### Movie Budget Allocation Histogram
+<div class="r-stretch">
+  <img src="figures/budget-allocation-histogram-all-movies.svg">
+</div>
+
+--
+
+###### Profit Margin Box and Whisker Plot by Budget (All Movies)
+<div class="r-stretch">
+  <img src="figures/profit-margin-distribution-by-budget-range-all-movies.svg">
+</div>
+
+--
+
+###### Profit Margin Box and Whisker Plot by Budget (Animation Movies)
+<div class="r-stretch">
+  <img src="figures/profit-margin-dist-by-budget-range-animation.svg">
+</div>
+
+--
+
+## Runtime Visualizations
+
+--
+
+###### Movie Runtime Histogram
+<div class="r-stretch">
+  <img src="figures/runtime-distribution-all-movies.svg">
+</div>
+
+--
+
+###### Movie Runtime Histogram (Profitable Movies)
+<div class="r-stretch">
+  <img src="figures/runtime-distribution-profitable-movies.svg">
+</div>
+
+--
+
+###### Movie Runtime Histogram (Animation Movies)
+<div class="r-stretch">
+  <img src="figures/runtime-dist-animation.svg">
+</div>
+
+--
+
+###### Movie Runtime Histogram (Profitable Animation Movies)
+<div class="r-stretch">
+  <img src="figures/runtime-dist-profitable-animation.svg">
+</div>
+
+-- 
+
+## Release Window Visualizations 
+
+--
+
+###### Profit Margin Box and Whisker Plot by Quarter
+<div class="r-stretch">
+  <img src="figures/profit-margin-by-quarter.svg">
+</div>
+
+--
+
+###### Profit Margin Box Plot by Month
+<div class="r-stretch">
+  <img src="figures/profit-margin-iqr-monthly.svg">
+</div>
 ---
 
 ## Future Work
