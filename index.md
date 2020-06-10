@@ -52,7 +52,7 @@ Note:
   an industry standard.
 - Looking at the profitability of movies by their release month, we see the months of June and July have a clear advantage over the rest of the year.
 
--- 
+-- <!-- .element: id="genre-viz" -->
 
 ## Genre Visualizations
 
@@ -72,7 +72,7 @@ Note:
   <img src="figures/average-profit-of-3-lowest-risk-genres.svg">
 </div>
 
--- 
+-- <!-- .element: id="budget-viz" -->
 
 ## Budget Allocation Visualizations
 
@@ -99,7 +99,7 @@ Note:
   <img src="figures/profit-margin-dist-by-budget-range-animation.svg">
 </div>
 
--- 
+-- <!-- .element: id="runtime-viz" -->
 
 ## Runtime Visualizations
 
@@ -133,7 +133,7 @@ Note:
   <img src="figures/runtime-dist-profitable-animation.svg">
 </div>
 
--- 
+-- <!-- .element: id="release-viz" -->
 
 ## Release Window Visualizations 
 
