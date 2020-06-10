@@ -145,6 +145,14 @@ Note:
 <div class="r-stretch">
   <img src="figures/profit-margin-iqr-monthly.svg">
 </div>
+
+--
+
+###### Average Profit by Month after 1999
+<div class="r-stretch">
+  <img src="figures/avg-profit-by-release-month.svg">
+</div>
+
 ---
 
 ## Future Work
