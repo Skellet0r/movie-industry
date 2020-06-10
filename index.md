@@ -60,14 +60,14 @@ Note:
 
 ###### Profit Margin Box and Whisker Plot by Genre 
 
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/profit-margin-dist-genre.svg">
 </div>
 
 --
 
 ###### Lowest Risk Genres Average Profit
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/average-profit-of-3-lowest-risk-genres.svg">
 </div>
 
@@ -78,21 +78,21 @@ Note:
 --
 
 ###### Movie Budget Allocation Histogram
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/budget-allocation-histogram-all-movies.svg">
 </div>
 
 --
 
 ###### Profit Margin Box and Whisker Plot by Budget (All Movies)
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/profit-margin-distribution-by-budget-range-all-movies.svg">
 </div>
 
 --
 
 ###### Profit Margin Box and Whisker Plot by Budget (Animation Movies)
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/profit-margin-dist-by-budget-range-animation.svg">
 </div>
 
@@ -103,28 +103,28 @@ Note:
 --
 
 ###### Movie Runtime Histogram
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/runtime-distribution-all-movies.svg">
 </div>
 
 --
 
 ###### Movie Runtime Histogram (Profitable Movies)
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/runtime-distribution-profitable-movies.svg">
 </div>
 
 --
 
 ###### Movie Runtime Histogram (Animation Movies)
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/runtime-dist-animation.svg">
 </div>
 
 --
 
 ###### Movie Runtime Histogram (Profitable Animation Movies)
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/runtime-dist-profitable-animation.svg">
 </div>
 
@@ -135,14 +135,14 @@ Note:
 --
 
 ###### Profit Margin Box and Whisker Plot by Quarter
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/profit-margin-by-quarter.svg">
 </div>
 
 --
 
 ###### Profit Margin Box Plot by Month
-<div data-prevent-swipe class="r-stretch">
+<div class="r-stretch">
   <img src="figures/profit-margin-iqr-monthly.svg">
 </div>
 ---
