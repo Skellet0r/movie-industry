@@ -56,3 +56,32 @@ Microsoft ("the client") is seeking to enter the Movie Industry. The client has 
 
 Our goal is to identify and recommend actionable steps our client can take
 in order to produce profitable movies.
+
+## Findings
+
+1. Produce Animation Movies they are less risky as shown by the fact that
+   more than 75% of them are profitable. One thing to note is that it isn't
+   uncommon for movies to be unprofitable in any genre, the risk still exists
+   however the Animation genre appears to be least riskiest based on our
+   data.
+
+![Profit Margin Box and Whisker Plot by Genre](docs/figures/profit-margin-dist-genre.svg)
+
+2. Have a budget between 94-130 million USD. Our data shows that
+   animation movies within that budget range are less risky. More
+   than 75% of the animation movies within that budget range have
+   a profit.
+
+![Profit Margin Box and Whisker Plot by Budget for Animation Movies](docs/figures/profit-margin-dist-by-budget-range-animation.svg)
+
+3. Have a total movie runtime between 75 and 140 minutes. We follow the
+   industry trend here, and a majority of movies appear to fall within that
+   large range.
+
+![Runtime Histogram](docs/figures/runtime-distribution-profitable-movies.svg)
+
+4. Release the feature film sometime in either the month of June or July.
+   Our data shows that of movies released after 1999, more than 75% those
+   released in the months of June or July returned a profit.
+   
+![Profit Margin Box Plot by Month Movies Released after 1999](docs/figures/profit-margin-iqr-monthly.svg)
