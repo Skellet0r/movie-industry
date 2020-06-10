@@ -1,14 +1,58 @@
- # DS Project Structure, Documents and Artifact Templates
+# Movie Industry Insights
 
-This is a general project directory structure. It also contains templates for various documents. 
+This project was completed as part of Flatiron School's Data Science Bootcamp.
 
-[Team Data Science Process (TDSP)](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview) is an agile, iterative, data science methodology to improve collaboration and team learning. It is supported through a lifecycle definition, standard project structure, artifact templates, and [tools](https://github.com/Azure/Azure-TDSP-Utilities) for productive data science. 
+Follow the quick start guide if you'd like to expand/extend/inspect my work
+on your local machine.
 
+Or you can read on further to get an overview of this project and my findings.
 
-**NOTE:** In this directory structure, the **data folder is NOT supposed to contain LARGE raw or processed data**. It is only supposed to contain **small and sample** data sets, which could be used to test the code.
+## Quick Start Guide
 
-The two documents under Docs/Project, namely the [Charter](./docs/project/charter.md) and [Exit Report](./docs/project/exit-report.md) are particularly important to consider. They help to define the project at the start of an engagement, and provide a final report to the customer or client.
+1. Clone this repository
 
-**NOTE:** In some projects, e.g. short term proof of principle (PoC) or proof of value (PoV) engagements, it can be relatively time consuming to create and all the recommended documents and artifacts. In that case, at least the Charter and Exit Report should be created and delivered to the customer or client. As necessary, organizations may modify certain sections of the documents. But it is strongly recommended that the content of the documents be maintained, as they provide important information about the project and deliverables.
+```shell
+$ git clone https://github.com/Skellet0r/movie-industry.git
+```
 
-**THIS IS NOT AN END ALL BE ALL PROJECT STRUCTURE, YOU MAY THROW CONVENTION OUT THE WINDOW. DO WHAT IS BEST FOR THE PROJECT**
+2. Enter directory & Initialize conda environment
+
+```shell
+$ cd ./movie-industry
+$ conda env create -f environment.yml
+```
+
+3. Activate conda environment
+
+```shell
+$ conda activate movie-industry
+```
+
+4. Enjoy
+
+You can view the slide deck for this project by [clicking here](https://Skellet0r.github.io/movie-industry/), (compatible with mobile web browsers). 
+
+## Components
+
+- [Data](data/): the raw and cleaned data used for this project can
+  be found in the data directory.
+- [Notebooks](notebooks/): the notebooks created throughout this
+  project can be found in the notebooks directory and are ordered
+  by creation time.
+- [Presentation](https://Skellet0r.github.io/movie-industry): the
+  presentation delivered to our client is hosted on github pages and uses
+  [reveal.js](https://revealjs.com/). A pdf version of the presentation can
+  also be found in this repository by clicking [here](presentation.pdf).
+
+## Technologies Used
+
+- [Jupyter](https://jupyter.org/): for interactive notebooks
+- [Reveal.js](https://revealjs.com/): for creating html slide decks
+- [Python](https://www.python.org/): for data cleaning and analysis
+
+## Background
+
+Microsoft ("the client") is seeking to enter the Movie Industry. The client has come to us for insight on what type of films are doing best at the box office.
+
+Our goal is to identify and recommend actionable steps our client can take
+in order to produce profitable movies.
