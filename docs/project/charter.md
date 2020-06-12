@@ -12,18 +12,18 @@ what type of movies they should produce** to get a solid foot in the market.
 
 ## Scope
 
-* What data science solutions are we trying to build?
-  * Not Applicable
-* What will we do?
-  * Exploratory Data Analysis
-* How is it going to be consumed by the customer?
-  * Presentation & Report
+- What data science solutions are we trying to build?
+  - Not Applicable
+- What will we do?
+  - Exploratory Data Analysis
+- How is it going to be consumed by the customer?
+  - Presentation & Report
 
 ## Personnel
 
-* Who are on this project:
-	* Company XYZ:
-		* Data scientist(s): Edward Amor
+- Who are on this project:
+  - Company XYZ:
+    - Data scientist(s): Edward Amor
 	
 ## Metrics
 
@@ -39,23 +39,23 @@ Success will be measured by:
 ## Plan
 
 1. Develop exploration guide
-  * Identify interesting characteristics we want to explore
-  * Pose questions we will answer
+   - Identify interesting characteristics we want to explore
+   - Pose questions we will answer
 2. Data Cleaning
-  * Clean up Missing Values
-  * Tidy up datasets into long/wide form
+   - Clean up Missing Values
+   - Tidy up datasets into long/wide form
 3. Data Exploration
-  * Explore our areas of interest
-  * Answer our questions
+   - Explore our areas of interest
+   - Answer our questions
 4. Identify Recommendations
-  * Look for 3 solid recommendations
+   - Look for 3 solid recommendations
 
 ## Architecture
 
-* Data
-  * From our client we expect to receive multiple flat data files (csv, tsv, etc.)
-* What tools and data analytics resources will be used in the solution
-  * Python for data cleaning, data exploration, etc.
+- Data
+  - From our client we expect to receive multiple flat data files (csv, tsv, etc.)
+- What tools and data analytics resources will be used in the solution
+  - Python for data cleaning, data exploration, etc.
 
 ## Communication
 
