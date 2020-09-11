@@ -1,7 +1,5 @@
 # Movie Industry Insights
 
-This project was completed as part of Flatiron School's Data Science Bootcamp.
-
 Follow the quick start guide if you'd like to expand/extend/inspect my work
 on your local machine.
 
